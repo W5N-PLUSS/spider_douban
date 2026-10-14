@@ -1,6 +1,5 @@
 # 方法二：requests + BeautifulSoup4
 # 与 scrapy_douban_by_xpath.py（Selenium+XPath版）字段、数据库结构完全一致，
-# 便于对比多种爬取方式。区别：这里不用浏览器，直接用 requests 发请求，用 bs4 解析。
 from bs4 import BeautifulSoup
 import requests
 import hashlib

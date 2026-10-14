@@ -9,6 +9,3 @@ venv/
 .env.*
 !.env.example
 *.log
-
-# ----- 本仓库按要求排除 Scrapy 框架版 -----
-scrapy_douban_by_xpath.py
