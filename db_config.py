@@ -12,6 +12,7 @@ DB_CONFIG = {
     "user":     os.getenv("DB_USER", "your_user"),
     "password": os.getenv("DB_PASSWORD", "your_password"),
     "database": os.getenv("DB_NAME", "your_database"),
+    "charset":  "utf8mb4",
 }
 
 # 数据表名（不需要提前建表，脚本会自动 CREATE TABLE IF NOT EXISTS）
